@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component snapshot 1`] = `
+<table>
+  <TableHead
+    setSortBy={[MockFunction]}
+  />
+  <tbody>
+    <PlayerRow
+      key="123"
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      player={
+        Object {
+          "firstName": "petro",
+          "id": "123",
+          "lastName": "chu",
+          "score": 32,
+        }
+      }
+    />
+    <PlayerRow
+      key="1231"
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      player={
+        Object {
+          "firstName": "petro2",
+          "id": "1231",
+          "lastName": "chu",
+          "score": 32,
+        }
+      }
+    />
+    <PlayerRow
+      key="1233"
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      player={
+        Object {
+          "firstName": "petro3",
+          "id": "1233",
+          "lastName": "chu3",
+          "score": 32,
+        }
+      }
+    />
+  </tbody>
+</table>
+`;

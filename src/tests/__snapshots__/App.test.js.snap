@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component snapshot 1`] = `
+<main
+  className="app"
+>
+  <Table
+    changeMode={[Function]}
+    onDelete={[Function]}
+    players={
+      Array [
+        Object {
+          "firstName": "Rob",
+          "id": "RobVera-k",
+          "lastName": "Vera",
+          "score": 88,
+        },
+        Object {
+          "firstName": "Alice",
+          "id": "AliceGeary-k",
+          "lastName": "Geary",
+          "score": 96,
+        },
+        Object {
+          "firstName": "Bob",
+          "id": "BobGeary-k",
+          "lastName": "Geary",
+          "score": 96,
+        },
+        Object {
+          "firstName": "John",
+          "id": "JohnJunge-k",
+          "lastName": "Junge",
+          "score": 96,
+        },
+      ]
+    }
+    setSortBy={[Function]}
+  />
+  <Form
+    action="add"
+    key="null"
+    onSubmit={[Function]}
+    player={
+      Object {
+        "firstName": "",
+        "lastName": "",
+        "score": 0,
+      }
+    }
+  />
+</main>
+`;

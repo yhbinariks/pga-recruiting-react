@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component snapshot 1`] = `
+<form
+  className="player-form"
+  onSubmit={[MockFunction]}
+>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      First Name
+    </span>
+    <input
+      defaultValue="petro"
+      maxLength="255"
+      name="firstName"
+      required={true}
+      type="text"
+    />
+  </label>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      Last Name
+    </span>
+    <input
+      defaultValue="chu"
+      maxLength="255"
+      name="lastName"
+      required={true}
+      type="text"
+    />
+  </label>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      Score
+    </span>
+    <input
+      defaultValue={32}
+      max="100"
+      min="0"
+      name="score"
+      required={true}
+      type="number"
+    />
+  </label>
+  <button
+    className="player-form__submit"
+    type="submit"
+  >
+    add
+  </button>
+</form>
+`;
+
+exports[`Form component snapshot defaultProps player 1`] = `
+<form
+  className="player-form"
+  onSubmit={[MockFunction]}
+>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      First Name
+    </span>
+    <input
+      defaultValue=""
+      maxLength="255"
+      name="firstName"
+      required={true}
+      type="text"
+    />
+  </label>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      Last Name
+    </span>
+    <input
+      defaultValue=""
+      maxLength="255"
+      name="lastName"
+      required={true}
+      type="text"
+    />
+  </label>
+  <label
+    className="player-form__label"
+  >
+    <span
+      className="player-form__label-text"
+    >
+      Score
+    </span>
+    <input
+      defaultValue={0}
+      max="100"
+      min="0"
+      name="score"
+      required={true}
+      type="number"
+    />
+  </label>
+  <button
+    className="player-form__submit"
+    type="submit"
+  >
+    add
+  </button>
+</form>
+`;

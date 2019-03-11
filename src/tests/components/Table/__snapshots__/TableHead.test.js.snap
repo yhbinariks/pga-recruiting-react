@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHead component snapshot 1`] = `
+<table>
+  <TableHead
+    setSortBy={[MockFunction]}
+  />
+</table>
+`;

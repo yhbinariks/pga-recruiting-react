@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerRow component snapshot 1`] = `
+<table>
+  <tbody>
+    <PlayerRow
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      player={
+        Object {
+          "firstName": "petro3",
+          "id": "1233",
+          "lastName": "chu3",
+          "score": 32,
+        }
+      }
+    />
+  </tbody>
+</table>
+`;
